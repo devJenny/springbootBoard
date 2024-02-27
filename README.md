@@ -17,24 +17,43 @@
 <br>
 
 ### 💡 글 작성
-![img.png](img.png)
+![img.png](src/main/resources/static/images/img.png)
 <br> <br> <br>
 
 ### 💡 전체 조회
-![img_1.png](img_1.png)
+![img_1.png](src/main/resources/static/images/img_1.png)
 <br> <br> <br>
 
 ### 💡 단건 조회
-![img_2.png](img_2.png)
+![img_2.png](src/main/resources/static/images/img_2.png)
 <br> <br> <br>
 
 ### 💡 삭제
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/static/images/img_3.png)
 <br> <br> <br>
 
 ### 💡 글 수정
-![img_4.png](img_4.png)
+![img_4.png](src/main/resources/static/images/img_4.png)
 <br> <br> <br>
 
 ---
 <br>
+
+## 타임리프 & 스프링 시큐리티 로그인/로그아웃<br>
+
+### 💡 로그인
+![img_5.png](src/main/resources/static/images/img_5.png)
+<br> <br> <br>
+
+### 💡 블로그 목록
+![img_6.png](src/main/resources/static/images/img_6.png)
+<br> <br> <br>
+
+### 💡 상세 화면
+![img_7.png](src/main/resources/static/images/img_7.png)
+<br> <br> <br>
+
+### 💡 글 수정
+![img_8.png](src/main/resources/static/images/img_8.png)
+![img_9.png](src/main/resources/static/images/img_9.png)
+<br> <br> <br>

@@ -2,6 +2,11 @@ package com.example.springbootBoard.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.Comment;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+
+import java.time.LocalDateTime;
 
 @Entity // 엔티티 지정
 @NoArgsConstructor (access = AccessLevel.PROTECTED)
@@ -29,4 +34,14 @@ public class Article {
         this.title = title;
         this.content = content;
     }
+
+    @CreatedDate
+    @Column(name="created_at")
+    @Comment("엔티티 생성 시간")
+    private LocalDateTime createdAt;
+
+    @LastModifiedDate
+    @Column(name="updated_at")
+    @Comment("엔티티 수정 시간")
+    private LocalDateTime updatedAt;
 }
