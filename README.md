@@ -56,4 +56,4 @@
 ### 💡 글 수정
 ![img_8.png](src/main/resources/static/images/img_8.png)
 ![img_9.png](src/main/resources/static/images/img_9.png)
-<br> <br> <br>
+<br> <br> <br> <br>

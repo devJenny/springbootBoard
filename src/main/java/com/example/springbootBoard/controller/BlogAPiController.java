@@ -42,8 +42,7 @@ public class BlogAPiController {
     }
 
     @GetMapping("/{id}")
-    @Comment("단건 조회")
-    public ResponseEntity<ArticleResponse> findArticle(@PathVariable(name = "id") long id) {
+    public ResponseEntity<ArticleResponse> findArticle(@PathVariable long id) {
         Article article = blogService.findById(id);
 
         return ResponseEntity.ok()

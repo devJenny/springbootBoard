@@ -49,6 +49,8 @@ public class WebSecurityConfig {
                 .csrf((csrfConfig) -> // 6.csrf 비활성화
                         csrfConfig.disable()
                 )
+                .httpBasic() // 추가: HTTP Basic 인증 활성화
+                .and() // 추가: 다른 설정과 구분하기 위해 and() 사용
                 .build();
     }
 
