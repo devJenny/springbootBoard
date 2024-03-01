@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TestPage {
     // git dev 생성 테스트
-    // git dev 생성 테스트
-    // git dev 생성 테스트
-    // git dev 생성 테스트
-
+    // git dev 생성 테스트11
 
     @GetMapping("/")
     public String test() {
