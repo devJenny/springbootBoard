@@ -29,7 +29,7 @@ public class BlogAPiController {
                 .body(savedArticle);
     }
 
-    // test test test test
+    // git test
     @GetMapping
     @Comment("전체 조회")
     public ResponseEntity<List<ArticleResponse>> findAllArticles() {
