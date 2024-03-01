@@ -70,7 +70,7 @@ public class User implements UserDetails { // UserDetails를 상속받아 인증
     @Override
     public boolean isCredentialsNonExpired() {
         // 패스워드가 만료되었는지 확인한느 로직
-        return true; // true -> 만료되지 ㅇ낳음
+        return true; // true -> 만료되지 않음
     }
 
     // 계정 사용 가능 여부 반환
